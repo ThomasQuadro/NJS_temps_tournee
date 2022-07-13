@@ -216,7 +216,7 @@ function testtime(){
 
         if (j >= new_db.length-1){
             clearInterval(time)
-            document.getElementById("download").style.display = "block"
+            document.getElementsByClassName("telechargement")[0].style.display = "flex"
             document.getElementsByClassName("spinner-border")[0].style.display = "none"
         };
 
